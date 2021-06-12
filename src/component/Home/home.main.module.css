@@ -1,0 +1,172 @@
+.homeMain > div {
+  padding: 3rem 3rem;
+  /* margin: 2rem 0; */
+}
+
+.homeMain > div:nth-child(2n) {
+  background-color: #f7f8f9;
+  /* background-color: red; */
+}
+
+.banner {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.404) 0%,
+      rgba(0, 0, 0, 0.33) 100%
+    ),
+    url('../../assets/apartment.jpeg') center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.quote {
+  color: white;
+  max-width: 80%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.list {
+  height: 100vh;
+}
+
+.feature {
+}
+
+.centerTitle {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.featureListContainer {
+  display: flex;
+}
+
+.featureList {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.featureItem {
+  flex: 1;
+  /* max-width: 30vw; */
+  text-align: left;
+  /* height: 16rem; */
+  min-width: 20rem;
+  padding: 4rem 2rem 3rem 2rem;
+  margin: 1rem;
+  /* border: 1px solid black; */
+  background-color: white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: all 0.4s ease;
+}
+
+.featureItem > * {
+  margin-bottom: 1rem;
+}
+
+.featureItem:hover {
+  box-shadow: 0 10px 35px 5px rgba(0, 0, 0, 0.096);
+  border-bottom: 2px solid #f0384a;
+}
+
+.featureItem i {
+  font-size: xx-large;
+  color: #f0384a;
+}
+
+.join {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url('../../assets/joinus.jpg') center;
+  background-size: cover;
+  height: 65vh;
+  max-width: calc(1200px - 1rem);
+  margin: 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 6rem;
+}
+
+.join * {
+  margin: 2rem 0;
+}
+
+.join h2 {
+  color: white;
+  max-width: 40%;
+  text-align: left;
+}
+
+.join button {
+  height: 2.75rem;
+  padding: 0 2rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.commentList {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.commentItem {
+  flex: 1;
+  /* max-width: 30vw; */
+  text-align: left;
+  /* height: 16rem; */
+  min-width: 20rem;
+  padding: 4rem 2rem 3rem 2rem;
+  margin: 1rem;
+  /* border: 1px solid black; */
+  background-color: white;
+  box-shadow: 0 10px 35px -3px rgba(0, 0, 0, 0.096);
+}
+
+.star {
+  color: #f8b42b;
+  font-size: 0.9rem;
+}
+
+.star > * {
+  margin: 1px;
+}
+
+.commentContent > * {
+  margin-top: 1rem;
+}
+
+.commentHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.commentAvatar {
+  background: url('../../assets/person.jpg') center;
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50px;
+  margin-right: 1.5rem;
+}

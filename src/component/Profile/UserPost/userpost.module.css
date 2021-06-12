@@ -1,0 +1,119 @@
+.userPost {
+    flex: 4;
+    background-color: #f7f8f9;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    margin: 1.5rem;
+}
+
+.header {
+    padding: 2rem;
+    border-bottom: 1px dotted rgb(218, 215, 215);
+}
+
+.header h3 {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.header button {
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+    background-color: white;
+    padding: 3px 7px 3px 7px;
+    margin-right: 5px;
+}
+
+.header button:hover {
+    color: white;
+    background-color: #dc3546b9;
+    border: 1px solid #dc3546b9;
+    cursor: pointer;
+}
+
+.header button:focus {
+    outline: none;
+}
+
+.container table {
+    width: 100%;
+    text-align: center;
+}
+
+.title th {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.itemDetail td {
+    border-top: 1px dotted rgb(218, 215, 215);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 300px;
+}
+
+.status {
+    color: green
+}
+
+.itemDetail button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+    margin-right: 4px;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    background-color: white;
+}
+
+.itemDetail button:hover {
+    color: white;
+    background-color: #dc3546b9;
+    border: 1px solid #dc3546b9;
+    cursor: pointer;
+}
+
+.itemDetail button:focus {
+    outline: none;
+}
+
+.itemDetail img {
+    width: 110px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1045px) {
+    .description tr {
+        display: block;
+    }
+    .description td {
+        display: block;
+    }
+    .description thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .description td {
+        position: relative;
+        padding-left: 50%;
+    }
+    .description td::before {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        margin-right: 100px;
+        width: 45%;
+        font-weight: 700;
+        content: attr(id);
+        text-transform: capitalize;
+    }
+    .itemDetail td {
+        max-width: 100%;
+    }
+}

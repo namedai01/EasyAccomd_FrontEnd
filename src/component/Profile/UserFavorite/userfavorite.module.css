@@ -1,0 +1,16 @@
+.userFavorite {
+    flex: 4;
+    background-color: #f7f8f9;
+    min-height: 100vh;
+}
+
+.title {
+    padding: 2rem;
+    background-color: white;
+    margin: 1.5rem;
+}
+
+.container {
+    background-color: white;
+    margin: 1.5rem;
+}

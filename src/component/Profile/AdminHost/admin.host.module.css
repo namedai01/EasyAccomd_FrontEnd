@@ -1,0 +1,93 @@
+.userPost {
+  flex: 4;
+  background-color: #f7f8f9;
+  min-height: 100vh;
+  color: rgba(0, 0, 0, 0.753);
+}
+
+.container {
+  background-color: white;
+  margin: 1.5rem;
+}
+
+.header {
+  padding: 2rem;
+  border-bottom: 1px dotted rgb(218, 215, 215);
+  color: black;
+}
+
+.header button {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  background-color: white;
+  padding: 3px 7px 3px 7px;
+  margin-right: 5px;
+}
+
+.header button:hover {
+  color: white;
+  background-color: #dc3546b9;
+  border: 1px solid #dc3546b9;
+}
+
+.header button:focus {
+  outline: none;
+}
+
+.container table {
+  width: 100%;
+  text-align: center;
+}
+
+.title th {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.itemDetail td {
+  border-top: 1px dotted rgb(218, 215, 215);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.status {
+  color: orange;
+}
+
+.itemDetail button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+  margin-right: 4px;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  background-color: white;
+}
+
+.itemDetail input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.itemDetail button:hover {
+  color: white;
+  background-color: #dc3546b9;
+  border: 1px solid #dc3546b9;
+}
+
+.itemDetail button:focus {
+  outline: none;
+}
+
+.imgCtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  margin: auto;
+}
+
+.imgCtn img {
+  width: 100%;
+}

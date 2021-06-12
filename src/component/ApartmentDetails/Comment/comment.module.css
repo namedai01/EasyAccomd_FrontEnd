@@ -1,0 +1,36 @@
+.commentContainer {
+    display: flex;
+    padding: 2rem 0;
+    /* box-shadow: 0 0 25px -2px rgba(0, 0, 0, 0.185); */
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.123);
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.commentContent {
+    margin-left: 2rem;
+}
+
+.userName {
+    font-weight: 600;
+}
+
+.date {
+    padding: 0.4rem 0;
+}
+
+.date i {
+    padding: 0 1rem 0 0;
+}

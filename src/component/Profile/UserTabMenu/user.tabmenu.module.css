@@ -1,0 +1,95 @@
+.tabMenu {
+  flex: 0.88;
+  height: 100%;
+  background-color: #4d5567;
+}
+
+.userBrief {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 0;
+  background-color: #434b5c;
+}
+
+.userAvatar {
+  height: 5.75rem;
+  width: 5.75rem;
+  border-radius: 50px;
+  background-color: #f0384a;
+  border: 3px solid #838383;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.userAvatar i {
+  color: white;
+  font-size: 4.5rem;
+  transform: translateY(10px);
+}
+
+.userBrief span {
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 0 0 0;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.dashboard > * {
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  transition: all 0.18s ease;
+  font-weight: 600;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.dashboard > *:hover {
+    background-color: #313643;
+}
+
+.dashboard > *:hover::before {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #f0384a;
+  content: "";
+}
+
+.dashboard i {
+  color: #d5dbea;
+  /* font-size: 1.1rem; */
+}
+
+.dashboard span {
+  color: #d5dbea;
+  padding: 0 2rem;
+}
+
+.selected {
+    background-color: #313643;
+}
+
+.selected::before {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #f0384a;
+  content: "";
+}
+
+.selected i {
+  color: #f0384a;
+}
+

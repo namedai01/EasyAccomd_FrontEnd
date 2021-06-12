@@ -1,0 +1,25 @@
+.upload {
+    display: flex;
+    flex: 4.9;
+    background-color: #f7f8f9;
+    min-height: 100vh;
+}
+
+.preview {
+    height: 100%;
+    display: inline-block;
+    max-height: 470px;
+    /* width: 28%; */
+    position: sticky;
+    /* position: -webkit-sticky; */
+    top: 8vh;
+    right: 0;
+    pointer-events: none;
+    box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+    .preview {
+        display: none;
+    }
+}

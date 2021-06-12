@@ -1,0 +1,124 @@
+#image_container {
+    background-color: #f7f8f9;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    margin: 1.5rem;
+    flex: 2;
+}
+
+#image_title {
+    padding: 2rem;
+    border-bottom: 1px dotted rgb(218, 215, 215);
+}
+
+.uploadedImg {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.prImg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 10rem;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.uploadedImg i {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: #f0384a;
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+}
+
+.uploadedImg i:hover {
+    transform: scale(1.2);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+    /* color: #dc3545; */
+}
+
+.prImg img {
+    width: 120%;
+}
+
+.image_upload_area {
+    padding: 2rem;
+}
+
+.image_upload_area>p {
+    font-weight: 700;
+    color: rgba(36, 36, 36, 0.733);
+    padding-bottom: 20px;
+}
+
+.image_upload_area>form {
+    background-color: rgba(248, 210, 210, 0.267);
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed rgb(139, 138, 138);
+    border-radius: 4px;
+    flex-direction: column;
+}
+
+.image_upload_area>form>i::before {
+    font-size: 60px;
+    opacity: 0.5;
+}
+
+.custom_file_upload>input[type='file'] {
+    display: none;
+}
+
+.custom_file_upload {
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #dc3545;
+    text-align: center;
+}
+
+.custom_file_upload:hover {
+    background-color: #f0384a;
+    cursor: pointer;
+}
+
+#continue_button {
+    margin-right: 1rem;
+    width: 6rem;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    margin-top: 2rem;
+    /* display: inline; */
+}
+
+#continue_button:hover {
+    background-color: #f0384a;
+    cursor: pointer;
+}
+
+#continue_button:focus {
+    outline: none;
+}
